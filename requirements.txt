@@ -16,4 +16,3 @@ streamlit
 # Environment variables
 python-dotenv
 
-streamlit run app/streamlit_app.py
