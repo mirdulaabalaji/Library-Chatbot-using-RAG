@@ -1,0 +1,19 @@
+# LangChain core + Groq support
+langchain
+langchain-groq
+langchain-community
+
+# Vector store & embeddings
+sentence-transformers
+faiss-cpu
+
+# Neo4j connector
+neo4j
+
+# Streamlit UI
+streamlit
+
+# Environment variables
+python-dotenv
+
+streamlit run app/streamlit_app.py
