@@ -1,11 +1,11 @@
-# 📚 Library RAG Chatbot
+#  Library RAG Chatbot
 
 A domain-specific Retrieval-Augmented Generation (RAG) chatbot that enables users to interact with a library knowledge base using natural language.
 This project integrates Neo4j Graph Database, HuggingFace Embeddings, FAISS Vector Search, Groq LLM, and Streamlit to create an intelligent assistant for semantic library information retrieval.
 
 ---
 
-# 🚀 Project Overview
+#  Project Overview
 
 Traditional library systems rely on keyword search and structured filtering, which can be limiting for users seeking conversational or semantic discovery.
 
@@ -18,13 +18,13 @@ The chatbot retrieves relevant information from a structured library database an
 
 ---
 
-# 🧠 Core Features
+#  Core Features
 
-## ✅ Natural Language Querying
+##  Natural Language Querying
 
 Users can interact conversationally instead of using rigid search filters.
 
-## ✅ Neo4j Graph Database Integration
+##  Neo4j Graph Database Integration
 
 Stores interconnected entities like:
 
@@ -35,25 +35,25 @@ Stores interconnected entities like:
 * Members
 * Library Branches
 
-## ✅ Semantic Search with FAISS
+##  Semantic Search with FAISS
 
 Uses vector embeddings for meaning-based retrieval rather than exact keyword matching.
 
-## ✅ HuggingFace Embeddings
+##  HuggingFace Embeddings
 
 Transforms textual representations of library records into searchable vectors.
 
-## ✅ Groq LLM Integration
+##  Groq LLM Integration
 
 Uses **Llama 3.1 8B Instant** for fast and grounded AI-generated responses.
 
-## ✅ Streamlit Frontend
+##  Streamlit Frontend
 
 Provides an easy-to-use web-based chat interface.
 
 ---
 
-# 🏗️ System Architecture
+#  System Architecture
 
 ```text
 Neo4j Graph Database
@@ -75,7 +75,7 @@ Streamlit Chat Interface
 
 ---
 
-# ⚙️ Technologies Used
+#  Technologies Used
 
 ## AI / Machine Learning
 
@@ -98,16 +98,16 @@ Streamlit Chat Interface
 
 ---
 
-# 🔧 Installation & Setup
+#  Installation & Setup
 
-## 1️⃣ Clone Repository
+## 1️ Clone Repository
 
 ```bash
 git clone https://github.com/mirdulaabalaji/Library-Chatbot-using-RAG.git
 cd library-rag-chatbot
 ```
 
-## 2️⃣ Create Virtual Environment
+## 2️ Create Virtual Environment
 
 ```bash
 python -m venv venv
@@ -119,7 +119,7 @@ python -m venv venv
 venv\Scripts\activate
 ```
 
-## 3️⃣ Install Dependencies
+## 3️ Install Dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -127,7 +127,7 @@ pip install -r requirements.txt
 
 ---
 
-# 🔑 Environment Variables
+#  Environment Variables
 
 Create a `.env` file:
 
@@ -140,7 +140,7 @@ GROQ_API_KEY=your_groq_api_key
 
 ---
 
-# ▶️ Running the Project
+#  Running the Project
 
 ```bash
 streamlit run app/streamlit_app.py
@@ -148,7 +148,7 @@ streamlit run app/streamlit_app.py
 
 ---
 
-# 🔄 Workflow Explanation
+#  Workflow Explanation
 
 ## Step 1: Neo4j Data Extraction
 
@@ -178,7 +178,7 @@ Relevant documents are passed to Groq Llama 3.1 for grounded responses.
 
 ---
 
-# 📌 Example Query
+#  Example Query
 
 **User:**
 
